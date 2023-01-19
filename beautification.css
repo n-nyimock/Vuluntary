@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0;
+    background: lightblue;
+}
+.everything{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+header{
+    background: #35425a;
+    color: white;
+    padding: 5px 0px 0px 0px;
+    min-height: 10px;
+    border-bottom: 4px solid magenta;
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 5px 0px 10px;
+
+}
+header #welcome{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 40px;
+}
+h1 a{
+    text-decoration: none;
+    color: yellow;
+}
+h1 a:hover{
+    text-decoration: none;
+    color: red;
+}
+h1 a:active{
+    text-decoration: none;
+    color: maroon;
+}
+h1 a::after{
+    text-decoration: none;
+    color: maroon;
+}
+#no{
+    color: red;
+    font-size: 24px;
+}
+header a:hover{
+    color: red;
+    font-weight: bold;
+}
+#readMe{
+    min-height: 300px;
+    background: url(/imgs/tretr.png) 0 -300px;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.5;
+    
+}
+img{
+    width: 50px;
+}
+#readMe h1{
+    margin-top: 5px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#readMe p{
+    font-size: 30px;
+}
+#message{
+    padding: 10px;
+    background: #35425a;
+    color: white;
+}
+#message h1{
+    float: left;
+}
+#message form{
+    float: right;
+    margin-top: 20px;
+}
+#message input[type="email"]{
+    padding: 6px;
+    width: 300px;
+}
+#butt{
+    padding: 6px;
+    background: tomato;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+#logos{
+    margin-top: 10px;
+}
+#logos .logo{
+    float: left;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+#footer{
+    background: blueviolet;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.animation {
+    animation: move-text 20s linear infinite;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  
+  @keyframes move-text {
+    from {
+      transform: translateX(80%);
+    }
+    to {
+      transform: translateX(-80%);
+    }
+  }
+  #Lin img{
+    width: 30px;
+  }
+  
